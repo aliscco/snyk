@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14.17.2-buster-slim
 
 COPY ./smoke/ /snyk/smoke/
 COPY ./fixtures/ /snyk/fixtures/
