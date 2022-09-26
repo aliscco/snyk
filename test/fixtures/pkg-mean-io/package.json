@@ -18,7 +18,7 @@
     "test": "snyk test && gulp test",
     "test-e2e": "gulp e2e.test",
     "postinstall": "node tools/scripts/postinstall.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
@@ -42,7 +42,7 @@
     "morgan": "latest",
     "ms": "latest",
     "nodemailer": "latest",
-    "npm": "^2.1.0",
+    "npm": "^7.21.0",
     "passport-facebook": "latest",
     "passport-github": "latest",
     "passport-google-oauth": "latest",
@@ -55,7 +55,8 @@
     "shelljs": "latest",
     "swig": "latest",
     "view-helpers": "latest",
-    "snyk": "*"
+    "snyk": "^1.1012.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "del": "latest",
