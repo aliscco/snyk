@@ -207,9 +207,9 @@ node-fetch@2.2.0, node-fetch@^2.3.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
 
-node-uuid@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.3.0.tgz#ae7aaa86c2941a2ce3af4d07de4e636f7039a051"
+node-uuid@1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
