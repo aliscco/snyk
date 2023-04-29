@@ -12,9 +12,15 @@
     "yarn": "1.10.1"
   },
   "devDependencies": {
-    "wsrun": "^3.6.2"
+    "wsrun": "^5.2.1"
   },
   "dependencies": {
-    "node-fetch": "^2.3.0"
-  }
+    "node-fetch": "^2.3.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
