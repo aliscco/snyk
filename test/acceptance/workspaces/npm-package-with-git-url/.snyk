@@ -1,8 +1,12 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:qs:20170213':
     - npm-package-with-git-url > qs:
         patched: '2018-11-04T12:47:13.696Z'
+    - patchable-vuln > qs:
+        patched: '2024-04-06T10:14:05.431Z'
+        id: 'npm:qs:20170213'
+        path: patchable-vuln > qs
