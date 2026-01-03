@@ -2,5 +2,5 @@ source :rubygems
 
 gem "sinatra"
 gem "haml"
-gem "httparty"
+gem "httparty", ">= 0.24.0"
 gem "actionpack"
